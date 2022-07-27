@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import logo from '../../assets/logo.png'
-import animation from "../../assets/pngegg.png"
 
 const Header = () => {
     return (
