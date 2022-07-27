@@ -1,0 +1,26 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.pagination-container li button {
+    background: #02b1c8b8;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    font-size: 18px;
+    font-weight:600;
+    margin: 0 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagination-container li button:hover {
+    background: #02b1c8b8;
+    color: white;
+}

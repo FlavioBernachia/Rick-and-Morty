@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background: #02b1c8b8;
+    box-shadow: 0px 20px 20px 17px #02b1c8b8;
+    height: 150px;
+    width: 100%;
+}
+.logo{
+    width: 400px;
+    height: 200px;
+    margin-left: 250px;
+}
+.animacion{
+    background-image: url("../../assets/pngegg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.rickViajando{
+    -webkit-animation-name: rickViajando;
+    animation-name: rickViajando;
+}
+@keyframes rickViajando {
+    0% {
+        transform: translateX(-1200px);
+        opacity: 20%;
+    }
+    25% {
+        transform: translateX(500px);
+        opacity: 70%;
+    }
+    40% {transform: translateX(1400px);
+    }
+    50%{
+        transform: rotateY(180deg)
+    }
+    65%{
+        transform: translateX(400px);
+        transform: rotateY(180deg)
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+        transform: rotateY(180deg)}
+} 
